@@ -1,0 +1,15 @@
+Food List
+
+Non-Vegetarian
+	Hot dog
+	Soup
+
+Vegetarian
+	Cheese
+	Eggs
+	Milk
+
+Vegan
+	Bread
+	Juice
+	Rice
