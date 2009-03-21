@@ -1,5 +1,4 @@
-# make changes (a) to (c1)
-cp -v ~/Development/Adventures/reference/c1.* branches/cbranch/
-for n in branches/cbranch/c1.* ; do mv -fv $n ${n/c1./} ; done
-svn commit -m "Changed (a) -> (c1) - in cbranch"
+# save a copy of the trunk (b2) as bbranch
+svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/bbranch -m "Created branch for (b2)"
+svn update
 

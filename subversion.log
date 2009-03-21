@@ -22,4 +22,8 @@ svn commit -m "Changed (a) -> (b1)"
 cp -v ~/Development/Adventures/reference/b2.* trunk/
 for n in trunk/b2.* ; do mv -fv $n ${n/b2./} ; done
 svn commit -m "Changed (b1) -> (b2)"
+# make changes (a) to (c1)
+cp -v ~/Development/Adventures/reference/c1.* branches/cbranch/
+for n in branches/cbranch/c1.* ; do mv -fv $n ${n/c1./} ; done
+svn commit -m "Changed (a) -> (c1) - in cbranch"
 
