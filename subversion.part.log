@@ -1,4 +1,0 @@
-# save a copy of the trunk (b2) as bbranch
-svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/bbranch -m "Created branch for (b2)"
-svn update
-

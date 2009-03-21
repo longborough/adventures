@@ -26,4 +26,16 @@ svn commit -m "Changed (b1) -> (b2)"
 cp -v ~/Development/Adventures/reference/c1.* branches/cbranch/
 for n in branches/cbranch/c1.* ; do mv -fv $n ${n/c1./} ; done
 svn commit -m "Changed (a) -> (c1) - in cbranch"
+# save a copy of the trunk (b2) as bbranch
+svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/bbranch -m "Created branch for (b2)"
+svn update
+# merge cbranch @ (c1) -> trunk @ (b2)  
+cd trunk/
+svn merge file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch
+# merge bbranch @ (b2) -> cbranch @ (c1)  
+cd ../branches/cbranch/
+svn merge file:///home/brent/Development/Adventures/subversion.repository/trunk
+# compare to reference material
+cd ../..
+sha1sum reference/*{3way,darcs}* subversion/{trunk,branches/cbranch}/*c* > subversion.sha1
 
