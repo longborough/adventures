@@ -1,17 +1,17 @@
 9
 
 dir
-6
+8
 file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch
 file:///home/brent/Development/Adventures/subversion.repository
 
 
 
-2009-03-21T19:42:11.514969Z
-5
+2009-03-21T22:33:27.453078Z
+8
 brent
 has-props
-has-prop-mods
+
 svn:special svn:externals svn:needs-lock
 
 
@@ -25,6 +25,13 @@ svn:special svn:externals svn:needs-lock
 
 
 9cd5a946-b320-42dc-878c-5a19a3585033
+
+
+
+
+
+
+0
 
 abstract.txt
 file
@@ -32,10 +39,10 @@ file
 
 
 
-2009-03-21T19:42:11.000000Z
-d7a5255292db6fd6b57c0b802d444942
-2009-03-21T19:42:11.514969Z
-5
+2009-03-21T21:47:01.000000Z
+93c6d70a7452d368468c320475279e9c
+2009-03-21T22:33:27.453078Z
+8
 brent
 
 
@@ -58,7 +65,7 @@ brent
 
 
 
-11
+27
 
 concrete.c
 file
@@ -66,10 +73,10 @@ file
 
 
 
-2009-03-21T19:42:11.000000Z
-d04c92c9cfe44d4c5b0c318e66e54d4d
-2009-03-21T19:42:11.514969Z
-5
+2009-03-21T21:47:01.000000Z
+c5148f575ad8ac0393bb9cd2b373b85b
+2009-03-21T22:33:27.453078Z
+8
 brent
 
 
@@ -92,7 +99,7 @@ brent
 
 
 
-205
+630
 
 counterex.c
 file
@@ -100,10 +107,10 @@ file
 
 
 
-2009-03-21T19:42:11.000000Z
-141847c0f8aeda6fc5257b0f77ac8fa3
-2009-03-21T19:42:11.514969Z
-5
+2009-03-21T21:47:01.000000Z
+640fd8f3941be58be73b47f2d10d4cab
+2009-03-21T22:33:27.453078Z
+8
 brent
 
 
@@ -126,5 +133,5 @@ brent
 
 
 
-211
+712
 
