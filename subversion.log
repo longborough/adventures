@@ -11,3 +11,7 @@ cp -v ~/Development/Adventures/reference/a.* trunk/
 for n in trunk/a.* ; do mv -v $n ${n/a./} ; done
 svn add trunk/*
 svn commit -m "Initial checkin" 
+# create c-branch and bring working copy up to date
+svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch -m "Created branch for (c)"
+svn update
+
