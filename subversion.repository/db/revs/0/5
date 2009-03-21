@@ -1,0 +1,58 @@
+id: 3-1.0-5.r5/0
+type: dir
+pred: 3-1.0.r4/1026
+count: 3
+text: 4 889 124 124 03c75374341858a57d6817f76365e194
+cpath: /branches/bbranch
+copyfrom: 4 /trunk
+
+PLAIN
+K 7
+bbranch
+V 16
+dir 3-1.0-5.r5/0
+K 7
+cbranch
+V 16
+dir 3-1.0-2.r2/0
+END
+ENDREP
+id: 1-1.0.r5/239
+type: dir
+pred: 1-1.0.r2/205
+count: 2
+text: 5 154 72 72 620666c34fd6cdb88fc7f05df6584b0e
+cpath: /branches
+copyroot: 0 /
+
+PLAIN
+K 6
+README
+V 18
+file 0-1.0.r1/1260
+K 8
+branches
+V 16
+dir 1-1.0.r5/239
+K 4
+tags
+V 17
+dir 2-1.0.r1/1379
+K 5
+trunk
+V 17
+dir 3-1.0.r4/1026
+END
+ENDREP
+id: 0.0.r5/529
+type: dir
+pred: 0.0.r4/1316
+count: 5
+text: 5 377 139 139 93ff8e60bd7b980d50e6ae5106e2ce2e
+cpath: /
+copyroot: 0 /
+
+3-1._0.t4-4 add false false /branches/bbranch
+4 /trunk
+
+529 658
