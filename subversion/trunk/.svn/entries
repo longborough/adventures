@@ -10,8 +10,8 @@ file:///home/brent/Development/Adventures/subversion.repository
 2009-03-21T19:32:21.824494Z
 4
 brent
-
-
+has-props
+has-prop-mods
 svn:special svn:externals svn:needs-lock
 
 
