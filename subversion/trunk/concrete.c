@@ -1,5 +1,5 @@
 int square(int x) {
-	int y = x;
+	int y = 0;
 	/* Update y to equal the result. */
 	/* Question: what is the order of magnitude of this algorithm with respect to x? */
 	return y * x;
