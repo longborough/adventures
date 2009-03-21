@@ -1,0 +1,17 @@
+# create subversion repository
+svnadmin create ~/Development/Adventures/subversion.repository 
+# create working copy via checkout
+svn checkout --force file:///home/brent/Development/Adventures/subversion.repository ./subversion/
+# build conventional svn folder structure
+cd subversion
+mkdir trunk branches tags
+svn add *
+# set up first (a) versions and commit
+cp -v ~/Development/Adventures/reference/a.* trunk/
+for n in trunk/a.* ; do mv -v $n ${n/a./} ; done
+svn add trunk/*
+svn commit -m "Initial checkin" 
+# create c-branch and bring working copy up to date
+svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch -m "Created branch for (c)"
+svn update
+
