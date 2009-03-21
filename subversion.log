@@ -14,4 +14,8 @@ svn commit -m "Initial checkin"
 # create c-branch and bring working copy up to date
 svn copy file:///home/brent/Development/Adventures/subversion.repository/trunk file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch -m "Created branch for (c)"
 svn update
+# make changes (a) to (b1)
+cp -v ~/Development/Adventures/reference/b1.* trunk/
+for n in trunk/b1.* ; do mv -fv $n ${n/b1./} ; done
+svn commit -m "Changed (a) -> (b1)"
 

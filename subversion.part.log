@@ -1,5 +1,5 @@
-# make changes to (b1)
-cp -v ~/Development/Adventures/reference/b1.* trunk/
-for n in trunk/b1.* ; do mv -fv $n ${n/b1./} ; done
-svn commit -m "Changed (a) -> (b1)"
+# make changes (b1) to (b2)
+cp -v ~/Development/Adventures/reference/b2.* trunk/
+for n in trunk/b2.* ; do mv -fv $n ${n/b2./} ; done
+svn commit -m "Changed (b1) -> (b2)"
 
