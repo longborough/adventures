@@ -2,13 +2,13 @@
 
 dir
 2
-file:///home/brent/Development/Adventures/subversion.repository/trunk
+file:///home/brent/Development/Adventures/subversion.repository/branches/cbranch
 file:///home/brent/Development/Adventures/subversion.repository
 
 
 
-2009-03-23T22:26:13.577115Z
-1
+2009-03-23T22:32:38.309278Z
+2
 brent
 
 
@@ -24,14 +24,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-
-
-
-
-
-
-
-0
+4d664ddd-3555-4f72-a38e-967b9419c309
 
 abstract.txt
 file
@@ -39,7 +32,7 @@ file
 
 
 
-2009-03-23T22:26:13.000000Z
+2009-03-23T22:32:38.000000Z
 aba7a7423c1382d35f95cd2026c83057
 2009-03-23T22:26:13.577115Z
 1
@@ -73,7 +66,7 @@ file
 
 
 
-2009-03-23T22:26:13.000000Z
+2009-03-23T22:32:38.000000Z
 f0b56da089e2e2272a7cd3c8320e6059
 2009-03-23T22:26:13.577115Z
 1
@@ -107,7 +100,7 @@ file
 
 
 
-2009-03-23T22:26:13.000000Z
+2009-03-23T22:32:38.000000Z
 37b475dd024bfae376523b72d90f4bca
 2009-03-23T22:26:13.577115Z
 1
