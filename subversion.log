@@ -52,5 +52,6 @@ cd ..
 sha1sum reference/*{3way,darcs}* subversion/{trunk,branches/cbranch}/*c* > subversion.sha1
 
 # final commit
+svn update subversion/
 svn commit -m "Final commit of merged branches" subversion/
 
